@@ -1,0 +1,17 @@
+<html>
+<head>
+<!-- Include the Monocle library -->
+<script type="text/javascript" src="monocle.js"></script>
+
+<!-- Create the reader when the page has loaded -->
+<script type="text/javascript">
+  Monocle.Events.listen(window, 'load', function () {Monocle.Reader('rdr')});
+</script>
+</head>
+<body>
+<!-- Somewhere in the page body, an element with a matching id... -->
+<div id="rdr" style="width: 300px; height: 400px">
+  <h1>Hello world.</h1>
+</div>
+</body>
+</html>

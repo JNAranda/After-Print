@@ -1,9 +1,9 @@
 /* CSS Document */
 
 body {
-	background-color:none;
-	background-position: center;
+	background-image:url("wood.jpg");
 	background-repeat:repeat;
+
 	font-family: courier;
 	font-size:12px;
 	color:#777;
@@ -85,10 +85,20 @@ body {
 	font-style:normal;
 	text-decoration:underline;
 }
+#header {
+	width: 680px;
+	height: 127px;
+	background-color: white;
+	margin:0px;
+	padding: 10px 10px 30px 10px;
+	border-top:2px dashed #ccc;
+	border-bottom:1px solid black;
+}
 #footer {
 	background-color: white;
 	border-top:2px dashed #ccc;
 	padding:10px;
+	width: 680px;
 	height: 70px;
 }
 #footer ul {
@@ -363,4 +373,46 @@ footer {
 
 footer nav {
   float: none;
+}
+
+/* errors */
+.field_with_errors {
+  margin-top: 10px;
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+.field_with_errors label {
+  color: #fff;
+}
+
+#error_explanation {
+  width: 400px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  background-color: #c00;
+  color: #fff;
+}
+
+#error_explanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 5px;
+}
+
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
 }

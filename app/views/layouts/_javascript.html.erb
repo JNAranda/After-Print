@@ -1,0 +1,23 @@
+
+ <%= javascript_include_tag "monocle.js" %>
+ <%= javascript_include_tag "compat.js" %>
+ <%= javascript_include_tag "reader.js" %>
+ <%= javascript_include_tag "book.js" %>
+ <%= javascript_include_tag "component.js" %>
+ <%= javascript_include_tag "place.js" %>
+ <%= javascript_include_tag "styles.js" %>
+	<!-- MONOCLE CORE -->
+
+ <%= javascript_include_tag "flippers/slider.js" %>
+ <%= javascript_include_tag "flippers/legacy.js" %>
+
+    <!-- MONOCLE FLIPPERS -->
+
+
+    
+
+    <script type="text/javascript">
+      // Initialize the reader element.
+      var initFn = function () { window.reader = Monocle.Reader('rabbit'); }
+      Monocle.addListener(window, 'load', initFn);
+    </script>

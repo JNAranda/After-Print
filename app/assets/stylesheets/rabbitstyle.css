@@ -1,0 +1,102 @@
+body {
+		background-image:url("wood.jpg");
+	background-repeat:repeat;
+}
+
+#container {
+	 background-color: #FFF9F4;
+	position: absolute;
+  left: 0;
+	width: 400px;
+	height: 600px; 
+  top: 20px;
+  bottom: 20px;
+  right: 15px;
+	margin: 5px auto;
+   
+}
+      #rabbit p {
+        line-height: 200%;
+      }
+      #rabbit img {
+        max-width: 98%;
+        max-height: 98%;
+        -webkit-column-break-before: always;
+      }
+      #rabbit .dedication {
+        text-align: center;
+        font-style: italic;
+        margin: 16em 0 10em;
+      }
+      #rabbit .center {
+        text-align: center;
+      }
+      #rabbit h1, #rabbit h2, #rabbit h3 {
+        text-align: center;
+      }
+      #rabbit h1 small {
+        font-size: 85%;
+        font-variant: small-caps;
+      }
+      #rabbit h2 {
+        margin-bottom: 3em;
+        font-weight: normal;
+      }
+      #rabbit h2 small {
+        font-size: 85%;
+        font-style: italic;
+      }
+ #rabbit {
+	background-color: #FFF9F4;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+@media screen and (min-width: 800px) {
+  #rabbit, #rabbit {
+    max-width: 400px;
+    max-height: 600px;
+  }
+}
+
+
+.dummyPage {
+  position: relative;
+  left: 0;
+	width: 400px;
+	height: 600px; 
+  top: 25px;
+  bottom: 20px;
+  right: 8px;
+	margin: 5px auto;
+
+  -webkit-box-shadow: 2px 2px 4px #754;
+  -moz-box-shadow: 2px 2px 4px #754;
+  -webkit-border-top-right-radius: 0px 6px;
+  -webkit-border-bottom-right-radius: 26px 6px;
+  -moz-border-radius-topright: 0px 6px;
+  -moz-border-radius-bottomright: 26px 6px;
+}
+.dummyPage + .dummyPage {
+  top: 10px;
+  bottom: 5px;
+  left: 30px;
+  -webkit-box-shadow: 1px 0 2px #A99;
+  -moz-box-shadow: 1px 0 2px #A99;
+}
+.dummyPage + .dummyPage + .dummyPage {
+  top: 23px;
+  bottom: 13px;
+  left: 28px;
+
+}
+.dummyPage + .dummyPage + .dummyPage + .dummyPage {
+  top: 20px;
+  bottom: 10px;
+  right: 5px;
+}
+.dummyPage + .dummyPage + .dummyPage + .dummyPage + .dummyPage {
+  top: 18px;
+  bottom: 8px;
+  right: 2px;
+}
