@@ -7,8 +7,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+
 	<div id="container">
+	
  	<%= render 'layouts/header' %>
+<div id="rabbithole">
       <section class="round">
 	<section class="round">
         <% flash.each do |key, value| %>
@@ -19,9 +22,10 @@
       </section>
 	
 	<%= render 'layouts/footer' %>
-	  
 
-	</div>
+	  </div>
+</div>
+
 	<%= debug(params) if Rails.env.development? %>
 </body>
 </html>

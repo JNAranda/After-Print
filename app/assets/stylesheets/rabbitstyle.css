@@ -4,7 +4,8 @@ body {
 }
 
 #container {
-	 background-color: #FFF9F4;
+	 	background-image:url("masonite.png");
+	background-repeat:repeat;
 	position: absolute;
   left: 0;
 	width: 400px;
@@ -13,8 +14,15 @@ body {
   bottom: 20px;
   right: 15px;
 	margin: 5px auto;
-   
+  -webkit-box-shadow: 8px 8px 8px black;
+  -moz-box-shadow: 8px 8px 8px black;
+  -webkit-border-bottom-left-radius: 26px 26px;
+  -webkit-border-bottom-right-radius: 26px 6px;
+  -moz-border-radius-bottomleft: 26px 26px;
+  -moz-border-radius-bottomright: 26px 26px;
+ 
 }
+
       #rabbit p {
         line-height: 200%;
       }
@@ -47,56 +55,16 @@ body {
         font-style: italic;
       }
  #rabbit {
-	background-color: #FFF9F4;
+	background-color: #FAF4E6;;
   position: absolute;
-  width: 100%;
+  width: 363px;
   height: 100%;
 }
 @media screen and (min-width: 800px) {
   #rabbit, #rabbit {
+	background-color:#FAF4E6;;
     max-width: 400px;
     max-height: 600px;
   }
 }
 
-
-.dummyPage {
-  position: relative;
-  left: 0;
-	width: 400px;
-	height: 600px; 
-  top: 25px;
-  bottom: 20px;
-  right: 8px;
-	margin: 5px auto;
-
-  -webkit-box-shadow: 2px 2px 4px #754;
-  -moz-box-shadow: 2px 2px 4px #754;
-  -webkit-border-top-right-radius: 0px 6px;
-  -webkit-border-bottom-right-radius: 26px 6px;
-  -moz-border-radius-topright: 0px 6px;
-  -moz-border-radius-bottomright: 26px 6px;
-}
-.dummyPage + .dummyPage {
-  top: 10px;
-  bottom: 5px;
-  left: 30px;
-  -webkit-box-shadow: 1px 0 2px #A99;
-  -moz-box-shadow: 1px 0 2px #A99;
-}
-.dummyPage + .dummyPage + .dummyPage {
-  top: 23px;
-  bottom: 13px;
-  left: 28px;
-
-}
-.dummyPage + .dummyPage + .dummyPage + .dummyPage {
-  top: 20px;
-  bottom: 10px;
-  right: 5px;
-}
-.dummyPage + .dummyPage + .dummyPage + .dummyPage + .dummyPage {
-  top: 18px;
-  bottom: 8px;
-  right: 2px;
-}

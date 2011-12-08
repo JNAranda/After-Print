@@ -5,18 +5,23 @@ body {
 	background-repeat:repeat;
 
 	font-family: courier;
-	font-size:12px;
-	color:#777;
+	font-size:13px;
+	color:black;
 }
-#container {
-	width:700px;
-	background-color: gray;
-	background-repeat:repeat-y;
+#rabbithole {
+	 	background-color: #FAF4E6;
+	position: absolute;
+  left: 19px;
+	width: 362px;
+	height: 500px; 
+  top: 85px;
+  bottom: 20px;
+  right: 15px;
 	margin: 5px auto;
-    -webkit-box-shadow: 10px 10px 15px black;
-    -moz-box-shadow: 10px 10px 15px black;
-    box-shadow: 10px 10px 15px black;
+	display: block;   margin-left: auto;   margin-right: auto;
 }
+
+
 
 #header {
 	width: 680px;
@@ -220,7 +225,7 @@ display:inline;}
 	font-size:20px;
 	border-bottom:1px solid black;
 	padding:5px;
-	color:#000;
+	color:black;
 }
 #content h1 a {
 	color:#000;
@@ -261,7 +266,7 @@ display:inline;}
 	text-decoration:none;
 }
 #content p a {
-	color:#333;
+	color:black;
 	text-decoration:none;
 }
 
@@ -415,4 +420,11 @@ footer nav {
 #error_explanation ul li {
   font-size: 12px;
   list-style: square;
+}
+
+.clippy {
+	width: 400px;
+	padding: auto;
+	z-index: 100;
+	display: block;   margin-left: auto;   margin-right: auto;
 }
